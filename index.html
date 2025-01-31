@@ -1101,21 +1101,61 @@ id="faq">
 
 <section class="tw-flex tw-w-full tw-flex-col tw-place-content-center tw-place-items-center tw-gap-[10%] tw-p-[5%] tw-px-[10%] max-md:tw-px-2">
     <div class="tw-flex tw-w-full tw-max-w-[80%] tw-place-content-center tw-place-items-center tw-justify-between tw-gap-3 tw-rounded-lg tw-border-[1px] tw-border-outlineColor tw-bg-secondary tw-p-6 max-md:tw-max-w-full max-md:tw-flex-col">
-        <div class="tw-flex tw-flex-col tw-gap-1">
+        <div class="tw-flex tw-flex-col tw-gap-1 tw-w-full">
             <h2 class="tw-text-3xl tw-text-gray-300 max-md:tw-text-xl">
-                Stay updated with our CRM innovations
+                Contact Us
             </h2>
-            <div class="tw-text-gray-300">Get the latest news, tips, and special offers directly to your inbox.</div>
+            <div class="tw-text-gray-300">We'd love to hear from you. Please fill out this form.</div>
         </div>
 
-        <div class="tw-flex tw-h-[60px] tw-place-items-center tw-gap-2 tw-overflow-hidden tw-p-2">
-            <input type="email" class="input tw-h-full tw-w-full !tw-border-gray-600 tw-p-2 tw-outline-none" placeholder="Your email address" />
-            <a class="btn !tw-rounded-full !tw-border-[1px] !tw-border-solid !tw-border-gray-300 !tw-bg-transparent tw-transition-colors tw-duration-[0.3s]" href="#subscribe">
-                Subscribe
-            </a>
-        </div>
+        <form
+            action="https://formspree.io/f/xovjweya"
+            method="POST"
+            class="tw-flex tw-flex-col tw-gap-4 tw-w-full tw-mt-4"
+        >
+            <div class="tw-flex tw-flex-col tw-gap-2">
+                <label for="name" class="tw-text-gray-300">Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="input tw-h-[60px] tw-w-full !tw-border-gray-600 tw-p-2 tw-outline-none"
+                    placeholder="Your name"
+                    required
+                />
+            </div>
+            <div class="tw-flex tw-flex-col tw-gap-2">
+                <label for="email" class="tw-text-gray-300">Your email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="input tw-h-[60px] tw-w-full !tw-border-gray-600 tw-p-2 tw-outline-none"
+                    placeholder="Your email address"
+                    required
+                />
+            </div>
+            <div class="tw-flex tw-flex-col tw-gap-2">
+                <label for="message" class="tw-text-gray-300">Your message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    class="input tw-h-[120px] tw-w-full !tw-border-gray-600 tw-p-2 tw-outline-none"
+                    placeholder="Your message"
+                    required
+                ></textarea>
+            </div>
+            <button
+                type="submit"
+                class="btn !tw-rounded-full !tw-border-[1px] !tw-border-solid !tw-border-gray-300 !tw-bg-transparent tw-transition-colors tw-duration-[0.3s] tw-text-gray-300 hover:tw-bg-gray-700"
+            >
+                Send Message
+            </button>
+        </form>
     </div>
 </section>
+
+
 
 <!-- footer -->
 
