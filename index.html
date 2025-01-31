@@ -12,8 +12,8 @@
         />
 
         <!-- Open Graph / Facebook -->
-        <meta property="og:title" content="Title of the project" />
-        <meta property="og:description" content="" />
+        <meta property="og:title" content="CRM" />
+        <meta property="og:description" content="LandingPage" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="" />
         <!--Replace with the current website url-->
@@ -51,7 +51,6 @@
                 <div
                     class="tw-flex tw-h-full tw-w-max tw-gap-5 tw-text-base max-lg:tw-mt-[30px] max-lg:tw-flex-col max-lg:tw-place-items-end max-lg:tw-gap-5 lg:tw-mx-auto lg:tw-place-items-center"
                 >
-                    <a class="header-links" href=""> About us </a>
                     <a class="header-links" href="#features"> Features </a>
                     <a class="header-links" href="#solutions"> Solutions </a>
                     <a class="header-links" href="#pricing"> Pricing </a>
@@ -59,17 +58,18 @@
                     <a class="header-links" href="#footer"> Contact </a>
                 </div>
                 <div
-                    class="tw-mx-4 tw-flex tw-place-items-center tw-gap-[20px] tw-text-base max-md:tw-w-full max-md:tw-flex-col max-md:tw-place-content-center"
+                class="tw-mx-4 tw-flex tw-place-items-center tw-gap-[20px] tw-text-base max-md:tw-w-full max-md:tw-flex-col max-md:tw-place-content-center"
+            >
+                <a
+                href="mailto:trendtial@gmail.com" aria-label="signup"
+                    class="tw-rounded-full tw-bg-white tw-px-3 tw-py-2 tw-text-black tw-transition-transform tw-duration-[0.3s] hover:tw-translate-x-2"
                 >
-                    <a
-                        href=""
-                        aria-label="signup"
-                        class="tw-rounded-full tw-bg-white tw-px-3 tw-py-2 tw-text-black tw-transition-transform tw-duration-[0.3s] hover:tw-translate-x-2"
-                    >
-                        <span>Get started</span>
-                        <i class="bi bi-arrow-right"></i>
-                    </a>
-                </div>
+                    <span>Get started</span>
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+            
+            
             </div>
             <button
                 class="bi bi-list tw-absolute tw-right-3 tw-top-3 tw-z-50 tw-text-3xl tw-text-white lg:tw-hidden"
@@ -112,7 +112,7 @@
             >
                 <a
                     class="btn tw-bg-[#7e22ce85] tw-shadow-lg tw-shadow-primary tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.03]"
-                    href=""
+                    href="mailto:trendtial@gmail.com"
                 >
                     Get started
                 </a>
@@ -373,68 +373,159 @@
         </section>
 
         <!-- Video -->
+        <section class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6" id="solutions">
+            <h2 class="tw-text-5xl tw-font-medium tw-text-gray-200 max-md:tw-text-2xl">
+                Our CRM Solutions
+            </h2>
+            
+            <div class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10">
+              <div class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4 tw-order-1 lg:tw-order-2">
+                <h3 class="tw-text-4xl tw-font-medium max-md:tw-text-2xl">
+                  CRM Solution
+                </h3>
+          
+                <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                  <h4 class="tw-text-xl tw-font-medium">
+                    <i class="bi bi-check-all !tw-text-2xl"></i>
+                    360° Customer View
+                  </h4>
+                  <span class="tw-text-lg tw-text-gray-300 max-md:tw-text-base">
+                    Get a complete overview of your customers, including interactions, preferences, and history, all in one place.
+                  </span>
+                </div>
+                <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                  <h4 class="tw-text-xl tw-font-medium">
+                    <i class="bi bi-check-all !tw-text-2xl"></i>
+                    Streamlined Workflow
+                  </h4>
+                  <span class="tw-text-lg tw-text-gray-300 max-md:tw-text-base">
+                    Automate tasks, track deals, and manage your sales pipeline efficiently with our intuitive interface.
+                  </span>
+                </div>
+              </div>
+              
+              <div class="tw-flex tw-order-2 lg:tw-order-1">
+                <div class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]">
+                  <video autoplay muted loop playsinline class="tw-h-full tw-w-full tw-object-cover">
+                    <source src="./assets/Videos/crmdemo.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          
+          
+        
+        <!-- Lead Section -->
 
         <section
         class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6"
-        id="solutions"        >
+    >
         <div
-          class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10"
+            class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10"
         >
-          <div class="tw-flex">
+            <div class="tw-flex">
+                <div
+                    class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]"
+                >
+                    <img
+                        src="./assets/images/home/lead.png"
+                        alt="Lead Management"
+                        class="tw-h-full tw-w-full tw-object-cover"
+                    />
+                </div>
+            </div>
             <div
-              class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]"
+                class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4"
             >
-              <video
-                autoplay
-                muted
-                loop
-                playsinline
-                class="tw-h-full tw-w-full tw-object-cover"
-              >
-                <source src="./assets/Videos/crmdemo.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
-          <div
-            class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4"
-          >
-            <h3 class="tw-text-4xl tw-font-medium max-md:tw-text-2xl">
-              CRM Solution
-            </h3>
-      
-            <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
-              <h4 class="tw-text-xl tw-font-medium">
-                <i class="bi bi-check-all !tw-text-2xl"></i>
-                360° Customer View
-              </h4>
-              <span
-                class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
-              >
-                Get a complete overview of your customers, including interactions, preferences, and history, all in one place.
-              </span>
-            </div>
-            <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
-              <h4 class="tw-text-xl tw-font-medium">
-                <i class="bi bi-check-all !tw-text-2xl"></i>
-                Streamlined Workflow
-              </h4>
-              <span
-                class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
-              >
-                Automate tasks, track deals, and manage your sales pipeline efficiently with our intuitive interface.
-              </span>
-            </div>
-          </div>
-        </div>
-      </section>      
-        
-        <!-- Lead Section -->
+                <h3 class="tw-text-4xl tw-font-medium max-md:tw-text-2xl">
+                    Lead Management
+                </h3>
     
-
+                <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                    <h4 class="tw-text-xl tw-font-medium">
+                        <i class="bi bi-check-all !tw-text-2xl"></i>
+                        Comprehensive Lead Tracking
+                    </h4>
+                    <span
+                        class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
+                    >
+                        Efficiently manage and track over 1,751 leads with detailed status monitoring and follow-ups.
+                    </span>
+                </div>
+                <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                    <h4 class="tw-text-xl tw-font-medium">
+                        <i class="bi bi-check-all !tw-text-2xl"></i>
+                        Automated Lead Assignment
+                    </h4>
+                    <span
+                        class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
+                    >
+                        Streamline your workflow with automatic lead assignment to team members and managers.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
     <section
     class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6"
->
+    >
+    <div
+        class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10"
+    >
+        <div
+            class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4"
+        >
+            <h3 class="tw-text-4xl tw-font-medium max-md:tw-text-2xl">
+                Contact Management
+            </h3>
+    
+            <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                <h4 class="tw-text-xl tw-font-medium">
+                    <i class="bi bi-check-all !tw-text-2xl"></i>
+                    Centralized Contact Database
+                </h4>
+                <span
+                    class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
+                >
+                    Keep all your contacts organized in one place with easy access to essential information.
+                </span>
+            </div>
+            <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                <h4 class="tw-text-xl tw-font-medium">
+                    <i class="bi bi-check-all !tw-text-2xl"></i>
+                    Detailed Contact Information
+                </h4>
+                <span
+                    class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
+                >
+                    Store comprehensive details including name, phone number, email, and preferred contact method.
+                </span>
+            </div>
+        </div>
+    
+        <div class="tw-flex">
+            <div
+                class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]"
+            >
+                <img
+                    src="./assets/images/home/contact.png"
+                    alt="Contact Management"
+                    class="tw-h-full tw-w-full tw-object-cover"
+                />
+            </div>
+        </div>
+    </div>
+    </section>
+    
+    <!-- Task Section -->
+    <section
+    class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6"
+    >
     <div
         class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10"
     >
@@ -443,8 +534,8 @@
                 class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]"
             >
                 <img
-                    src="./assets/images/home/lead.png"
-                    alt="Lead Management"
+                    src="./assets/images/home/task.png"
+                    alt="Task Management"
                     class="tw-h-full tw-w-full tw-object-cover"
                 />
             </div>
@@ -453,398 +544,298 @@
             class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4"
         >
             <h3 class="tw-text-4xl tw-font-medium max-md:tw-text-2xl">
-                Lead Management
+                Task Management
             </h3>
-
+    
             <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
                 <h4 class="tw-text-xl tw-font-medium">
                     <i class="bi bi-check-all !tw-text-2xl"></i>
-                    Comprehensive Lead Tracking
+                    Comprehensive Task Tracking
                 </h4>
                 <span
                     class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
                 >
-                    Efficiently manage and track over 1,751 leads with detailed status monitoring and follow-ups.
+                    Keep track of all tasks with details on title, related items, status, assignee, and deadlines.
                 </span>
             </div>
             <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
                 <h4 class="tw-text-xl tw-font-medium">
                     <i class="bi bi-check-all !tw-text-2xl"></i>
-                    Automated Lead Assignment
+                    Efficient Task Management
                 </h4>
                 <span
                     class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
                 >
-                    Streamline your workflow with automatic lead assignment to team members and managers.
+                    Easily manage and update task statuses, from 'To Do' to 'Completed', ensuring nothing falls through the cracks.
                 </span>
             </div>
         </div>
     </div>
-</section>
-
-<!-- Contact Section -->
-<section
-class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6"
->
-<div
-    class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10"
->
-    <div
-        class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4"
+    </section>
+    
+    <!-- Call Section -->
+    <section
+    class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6"
     >
-        <h3 class="tw-text-4xl tw-font-medium max-md:tw-text-2xl">
-            Contact Management
-        </h3>
-
-        <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
-            <h4 class="tw-text-xl tw-font-medium">
-                <i class="bi bi-check-all !tw-text-2xl"></i>
-                Centralized Contact Database
-            </h4>
-            <span
-                class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
-            >
-                Keep all your contacts organized in one place with easy access to essential information.
-            </span>
-        </div>
-        <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
-            <h4 class="tw-text-xl tw-font-medium">
-                <i class="bi bi-check-all !tw-text-2xl"></i>
-                Detailed Contact Information
-            </h4>
-            <span
-                class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
-            >
-                Store comprehensive details including name, phone number, email, and preferred contact method.
-            </span>
-        </div>
-    </div>
-
-    <div class="tw-flex">
-        <div
-            class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]"
-        >
-            <img
-                src="./assets/images/home/contact.png"
-                alt="Contact Management"
-                class="tw-h-full tw-w-full tw-object-cover"
-            />
-        </div>
-    </div>
-</div>
-</section>
-
-<!-- Task Section -->
-<section
-class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6"
->
-<div
-    class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10"
->
-    <div class="tw-flex">
-        <div
-            class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]"
-        >
-            <img
-                src="./assets/images/home/task.png"
-                alt="Task Management"
-                class="tw-h-full tw-w-full tw-object-cover"
-            />
-        </div>
-    </div>
     <div
-        class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4"
+        class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10"
     >
-        <h3 class="tw-text-4xl tw-font-medium max-md:tw-text-2xl">
-            Task Management
-        </h3>
-
-        <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
-            <h4 class="tw-text-xl tw-font-medium">
-                <i class="bi bi-check-all !tw-text-2xl"></i>
-                Comprehensive Task Tracking
-            </h4>
-            <span
-                class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
-            >
-                Keep track of all tasks with details on title, related items, status, assignee, and deadlines.
-            </span>
-        </div>
-        <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
-            <h4 class="tw-text-xl tw-font-medium">
-                <i class="bi bi-check-all !tw-text-2xl"></i>
-                Efficient Task Management
-            </h4>
-            <span
-                class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
-            >
-                Easily manage and update task statuses, from 'To Do' to 'Completed', ensuring nothing falls through the cracks.
-            </span>
-        </div>
-    </div>
-</div>
-</section>
-
-<!-- Call Section -->
-<section
-class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6"
->
-<div
-    class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10"
->
-    <div
-        class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4"
-    >
-        <h3 class="tw-text-4xl tw-font-medium max-md:tw-text-2xl">
-            Call Management
-        </h3>
-
-        <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
-            <h4 class="tw-text-xl tw-font-medium">
-                <i class="bi bi-check-all !tw-text-2xl"></i>
-                Detailed Call Logging
-            </h4>
-            <span
-                class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
-            >
-                Log and track all calls with information on sender, recipient, related items, and comments.
-            </span>
-        </div>
-        <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
-            <h4 class="tw-text-xl tw-font-medium">
-                <i class="bi bi-check-all !tw-text-2xl"></i>
-                Efficient Call Management
-            </h4>
-            <span
-                class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
-            >
-                Easily manage and review call history, ensuring effective follow-ups and relationship management.
-            </span>
-        </div>
-    </div>
-
-    <div class="tw-flex">
         <div
-            class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]"
+            class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4"
         >
-            <img
-                src="./assets/images/home/call.png"
-                alt="Call Management"
-                class="tw-h-full tw-w-full tw-object-cover"
-            />
+            <h3 class="tw-text-4xl tw-font-medium max-md:tw-text-2xl">
+                Call Management
+            </h3>
+    
+            <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                <h4 class="tw-text-xl tw-font-medium">
+                    <i class="bi bi-check-all !tw-text-2xl"></i>
+                    Detailed Call Logging
+                </h4>
+                <span
+                    class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
+                >
+                    Log and track all calls with information on sender, recipient, related items, and comments.
+                </span>
+            </div>
+            <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                <h4 class="tw-text-xl tw-font-medium">
+                    <i class="bi bi-check-all !tw-text-2xl"></i>
+                    Efficient Call Management
+                </h4>
+                <span
+                    class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
+                >
+                    Easily manage and review call history, ensuring effective follow-ups and relationship management.
+                </span>
+            </div>
+        </div>
+    
+        <div class="tw-flex">
+            <div
+                class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]"
+            >
+                <img
+                    src="./assets/images/home/call.png"
+                    alt="Call Management"
+                    class="tw-h-full tw-w-full tw-object-cover"
+                />
+            </div>
         </div>
     </div>
-</div>
-</section>
-
-
-<!-- Calendar Section -->
-<section
-class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6"
->
-<div
-    class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10"
->
-    <div class="tw-flex">
-        <div
-            class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]"
-        >
-            <img
-                src="./assets/images/home/calender.png"
-                alt="Calendar Management"
-                class="tw-h-full tw-w-full tw-object-cover"
-            />
-        </div>
-    </div>
-    <div
-        class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4"
+    </section>
+    
+    
+    <!-- Calendar Section -->
+    <section
+    class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6"
     >
-        <h3 class="tw-text-4xl tw-font-medium max-md:tw-text-2xl">
-            Calendar Management
-        </h3>
-
-        <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
-            <h4 class="tw-text-xl tw-font-medium">
-                <i class="bi bi-check-all !tw-text-2xl"></i>
-                Comprehensive Calendar View
-            </h4>
-            <span
-                class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
-            >
-                Get a clear overview of your schedule with our intuitive monthly calendar view.
-            </span>
-        </div>
-        <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
-            <h4 class="tw-text-xl tw-font-medium">
-                <i class="bi bi-check-all !tw-text-2xl"></i>
-                Flexible Date Navigation
-            </h4>
-            <span
-                class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
-            >
-                Easily navigate between months and jump to specific dates with our user-friendly interface.
-            </span>
-        </div>
-    </div>
-</div>
-</section>
-
-
-
-<!-- Payment Section -->
-<section
-class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6"
->
-<div
-    class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10"
->
     <div
-        class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4"
+        class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10"
     >
-        <h3 class="tw-text-4xl tw-font-medium max-md:tw-text-2xl">
-            Payment Processing
-        </h3>
-
-        <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
-            <h4 class="tw-text-xl tw-font-medium">
-                <i class="bi bi-check-all !tw-text-2xl"></i>
-                Multiple Payment Options
-            </h4>
-            <span
-                class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
+        <div class="tw-flex">
+            <div
+                class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]"
             >
-                Accept payments through various methods including credit cards and digital wallets.
-            </span>
+                <img
+                    src="./assets/images/home/calender.png"
+                    alt="Calendar Management"
+                    class="tw-h-full tw-w-full tw-object-cover"
+                />
+            </div>
         </div>
-        <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
-            <h4 class="tw-text-xl tw-font-medium">
-                <i class="bi bi-check-all !tw-text-2xl"></i>
-                Secure Transaction Processing
-            </h4>
-            <span
-                class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
-            >
-                Ensure safe and secure payment processing for all your transactions.
-            </span>
-        </div>
-    </div>
-
-    <div class="tw-flex">
         <div
-            class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]"
+            class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4"
         >
-            <img
-                src="./assets/images/home/payment.png"
-                alt="Payment Processing"
-                class="tw-h-full tw-w-full tw-object-cover"
-            />
+            <h3 class="tw-text-4xl tw-font-medium max-md:tw-text-2xl">
+                Calendar Management
+            </h3>
+    
+            <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                <h4 class="tw-text-xl tw-font-medium">
+                    <i class="bi bi-check-all !tw-text-2xl"></i>
+                    Comprehensive Calendar View
+                </h4>
+                <span
+                    class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
+                >
+                    Get a clear overview of your schedule with our intuitive monthly calendar view.
+                </span>
+            </div>
+            <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                <h4 class="tw-text-xl tw-font-medium">
+                    <i class="bi bi-check-all !tw-text-2xl"></i>
+                    Flexible Date Navigation
+                </h4>
+                <span
+                    class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
+                >
+                    Easily navigate between months and jump to specific dates with our user-friendly interface.
+                </span>
+            </div>
         </div>
     </div>
-</div>
-</section>
-
-<!-- Reporting and Analytics Section -->
-<section
-class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6"
->
-<div
-    class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10"
->
-    <div class="tw-flex">
-        <div
-            class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]"
-        >
-            <img
-                src="./assets/images/home/reports2.png"
-                alt="Reporting and Analytics"
-                class="tw-h-full tw-w-full tw-object-cover"
-            />
-        </div>
-    </div>
+    </section>
+    
+    
+    
+    <!-- Payment Section -->
+    <section
+    class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6"
+    >
     <div
-        class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4"
+        class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10"
     >
-        <h3 class="tw-text-4xl tw-font-medium max-md:tw-text-2xl">
-            Reporting and Analytics
-        </h3>
-
-        <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
-            <h4 class="tw-text-xl tw-font-medium">
-                <i class="bi bi-check-all !tw-text-2xl"></i>
-                Comprehensive Performance Metrics
-            </h4>
-            <span
-                class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
-            >
-                Get detailed insights into your team's performance with our advanced analytics tools.
-            </span>
-        </div>
-        <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
-            <h4 class="tw-text-xl tw-font-medium">
-                <i class="bi bi-check-all !tw-text-2xl"></i>
-                Visual Data Representation
-            </h4>
-            <span
-                class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
-            >
-                Visualize your data with intuitive charts and graphs for better decision-making.
-            </span>
-        </div>
-    </div>
-</div>
-</section>
-
-<!-- Inventory Section -->
-<section
-class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6"
->
-<div
-    class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10"
->
-    <div
-        class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4"
-    >
-        <h3 class="tw-text-4xl tw-font-medium max-md:tw-text-2xl">
-            Inventory Management
-        </h3>
-
-        <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
-            <h4 class="tw-text-xl tw-font-medium">
-                <i class="bi bi-check-all !tw-text-2xl"></i>
-                Detailed Inventory Tracking
-            </h4>
-            <span
-                class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
-            >
-                Keep track of your inventory with comprehensive details on each item, including pricing and availability.
-            </span>
-        </div>
-        <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
-            <h4 class="tw-text-xl tw-font-medium">
-                <i class="bi bi-check-all !tw-text-2xl"></i>
-                Advanced Search and Filter
-            </h4>
-            <span
-                class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
-            >
-                Quickly find the items you need with our powerful search and filter capabilities.
-            </span>
-        </div>
-    </div>
-
-    <div class="tw-flex">
         <div
-            class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]"
+            class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4"
         >
-            <img
-                src="./assets/images/home/inventory.png"
-                alt="Inventory Management"
-                class="tw-h-full tw-w-full tw-object-cover"
-            />
+            <h3 class="tw-text-4xl tw-font-medium max-md:tw-text-2xl">
+                Payment Processing
+            </h3>
+    
+            <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                <h4 class="tw-text-xl tw-font-medium">
+                    <i class="bi bi-check-all !tw-text-2xl"></i>
+                    Multiple Payment Options
+                </h4>
+                <span
+                    class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
+                >
+                    Accept payments through various methods including credit cards and digital wallets.
+                </span>
+            </div>
+            <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                <h4 class="tw-text-xl tw-font-medium">
+                    <i class="bi bi-check-all !tw-text-2xl"></i>
+                    Secure Transaction Processing
+                </h4>
+                <span
+                    class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
+                >
+                    Ensure safe and secure payment processing for all your transactions.
+                </span>
+            </div>
+        </div>
+    
+        <div class="tw-flex">
+            <div
+                class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]"
+            >
+                <img
+                    src="./assets/images/home/payment.png"
+                    alt="Payment Processing"
+                    class="tw-h-full tw-w-full tw-object-cover"
+                />
+            </div>
         </div>
     </div>
-</div>
-</section>
+    </section>
+    
+    <!-- Reporting and Analytics Section -->
+    <section
+    class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6"
+    >
+    <div
+        class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10"
+    >
+        <div class="tw-flex">
+            <div
+                class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]"
+            >
+                <img
+                    src="./assets/images/home/reports2.png"
+                    alt="Reporting and Analytics"
+                    class="tw-h-full tw-w-full tw-object-cover"
+                />
+            </div>
+        </div>
+        <div
+            class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4"
+        >
+            <h3 class="tw-text-4xl tw-font-medium max-md:tw-text-2xl">
+                Reporting and Analytics
+            </h3>
+    
+            <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                <h4 class="tw-text-xl tw-font-medium">
+                    <i class="bi bi-check-all !tw-text-2xl"></i>
+                    Comprehensive Performance Metrics
+                </h4>
+                <span
+                    class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
+                >
+                    Get detailed insights into your team's performance with our advanced analytics tools.
+                </span>
+            </div>
+            <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                <h4 class="tw-text-xl tw-font-medium">
+                    <i class="bi bi-check-all !tw-text-2xl"></i>
+                    Visual Data Representation
+                </h4>
+                <span
+                    class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
+                >
+                    Visualize your data with intuitive charts and graphs for better decision-making.
+                </span>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+    <!-- Inventory Section -->
+    <section
+    class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6"
+    >
+    <div
+        class="reveal-up tw-flex tw-min-h-[60vh] tw-place-content-center tw-place-items-center tw-gap-[10%] max-lg:tw-flex-col max-lg:tw-gap-10"
+    >
+        <div
+            class="tw-mt-6 tw-flex tw-max-w-[450px] tw-flex-col tw-gap-4"
+        >
+            <h3 class="tw-text-4xl tw-font-medium max-md:tw-text-2xl">
+                Inventory Management
+            </h3>
+    
+            <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                <h4 class="tw-text-xl tw-font-medium">
+                    <i class="bi bi-check-all !tw-text-2xl"></i>
+                    Detailed Inventory Tracking
+                </h4>
+                <span
+                    class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
+                >
+                    Keep track of your inventory with comprehensive details on each item, including pricing and availability.
+                </span>
+            </div>
+            <div class="tw-mt-4 tw-flex tw-flex-col tw-gap-3">
+                <h4 class="tw-text-xl tw-font-medium">
+                    <i class="bi bi-check-all !tw-text-2xl"></i>
+                    Advanced Search and Filter
+                </h4>
+                <span
+                    class="tw-text-lg tw-text-gray-300 max-md:tw-text-base"
+                >
+                    Quickly find the items you need with our powerful search and filter capabilities.
+                </span>
+            </div>
+        </div>
+    
+        <div class="tw-flex">
+            <div
+                class="tw-max-h-[650px] tw-max-w-[850px] tw-overflow-hidden tw-rounded-lg tw-shadow-lg tw-shadow-[rgba(170,49,233,0.44021358543417366)]"
+            >
+                <img
+                    src="./assets/images/home/inventory.png"
+                    alt="Inventory Management"
+                    class="tw-h-full tw-w-full tw-object-cover"
+                />
+            </div>
+        </div>
+    </div>
+    </section>
+    
+    
+
 
 
 <section class="tw-mt-5 tw-flex tw-min-h-[80vh] tw-w-full tw-flex-col tw-place-content-center tw-place-items-center tw-p-[2%]">
@@ -860,7 +851,7 @@ class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-co
             </p>
             <div class="tw-flex tw-place-items-center tw-gap-3">
                 <div class="tw-h-[50px] tw-w-[50px] tw-overflow-hidden tw-rounded-full">
-                    <img src="https://v0.blob.com/Hy7Aw.png" class="tw-h-full tw-w-full tw-object-cover" alt="Hassan Tariq" />
+                    <img  src="./assets/images/people/man.jpg"  class="tw-h-full tw-w-full tw-object-cover" alt="Hassan Tariq" />
                 </div>
                 <div class="tw-flex tw-flex-col tw-gap-1">
                     <div class="tw-font-semibold">Hassan Tariq</div>
@@ -876,7 +867,7 @@ class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-co
             </p>
             <div class="tw-flex tw-place-items-center tw-gap-3">
                 <div class="tw-h-[50px] tw-w-[50px] tw-overflow-hidden tw-rounded-full">
-                    <img src="https://v0.blob.com/Hy7Aw.png" class="tw-h-full tw-w-full tw-object-cover" alt="Ayesha Khan" />
+                    <img src="./assets/images/people/anooshy.jpg" class="tw-h-full tw-w-full tw-object-cover" alt="Ayesha Khan" />
                 </div>
                 <div class="tw-flex tw-flex-col tw-gap-1">
                     <div class="tw-font-semibold">Ayesha Khan</div>
@@ -892,7 +883,7 @@ class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-co
             </p>
             <div class="tw-flex tw-place-items-center tw-gap-3">
                 <div class="tw-h-[50px] tw-w-[50px] tw-overflow-hidden tw-rounded-full">
-                    <img src="https://v0.blob.com/Hy7Aw.png" class="tw-h-full tw-w-full tw-object-cover" alt="Muhammad Ammar" />
+                    <img src="./assets/images/people/abdul faheem.jpg" class="tw-h-full tw-w-full tw-object-cover" alt="Muhammad Ammar" />
                 </div>
                 <div class="tw-flex tw-flex-col tw-gap-1">
                     <div class="tw-font-semibold">Muhammad Ammar</div>
@@ -908,7 +899,7 @@ class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-co
             </p>
             <div class="tw-flex tw-place-items-center tw-gap-3">
                 <div class="tw-h-[50px] tw-w-[50px] tw-overflow-hidden tw-rounded-full">
-                    <img src="https://v0.blob.com/Hy7Aw.png" class="tw-h-full tw-w-full tw-object-cover" alt="Fatima Ahmed" />
+                    <img src="./assets/images/people/women.jpg" class="tw-h-full tw-w-full tw-object-cover" alt="Fatima Ahmed" />
                 </div>
                 <div class="tw-flex tw-flex-col tw-gap-1">
                     <div class="tw-font-semibold">Fatima Ahmed</div>
@@ -924,10 +915,10 @@ class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-co
             </p>
             <div class="tw-flex tw-place-items-center tw-gap-3">
                 <div class="tw-h-[50px] tw-w-[50px] tw-overflow-hidden tw-rounded-full">
-                    <img src="https://v0.blob.com/Hy7Aw.png" class="tw-h-full tw-w-full tw-object-cover" alt="Zainab Malik" />
+                    <img src="./assets/images/people/Haroon.jpg" class="tw-h-full tw-w-full tw-object-cover" alt="Haroon" />
                 </div>
                 <div class="tw-flex tw-flex-col tw-gap-1">
-                    <div class="tw-font-semibold">Zainab Malik</div>
+                    <div class="tw-font-semibold">Haroon Aziz</div>
                     <div class="tw-text-gray-400">Customer Success Lead</div>
                 </div>
             </div>
@@ -940,7 +931,7 @@ class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-co
             </p>
             <div class="tw-flex tw-place-items-center tw-gap-3">
                 <div class="tw-h-[50px] tw-w-[50px] tw-overflow-hidden tw-rounded-full">
-                    <img src="https://v0.blob.com/Hy7Aw.png" class="tw-h-full tw-w-full tw-object-cover" alt="Ali Raza" />
+                    <img src="./assets/images/people/junaid.jpg" class="tw-h-full tw-w-full tw-object-cover" alt="Ali Raza" />
                 </div>
                 <div class="tw-flex tw-flex-col tw-gap-1">
                     <div class="tw-font-semibold">Ali Raza</div>
@@ -950,6 +941,8 @@ class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-co
         </div>
     </div>
 </section>
+
+
 
 
 <section
@@ -1176,10 +1169,3 @@ id="footer">
 </html>
 
 
-echo "# CRM-LandingPage" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Haroon2697/CRM-LandingPage.git
-git push -u origin main
